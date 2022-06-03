@@ -1,0 +1,97 @@
+#App{
+  background-color: black;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+}
+button{
+  margin: 3vw 0 3vw 85vw ;
+  height: 4vw;
+  width: 8vw;
+  border-radius: 10vw;
+  background: #0047D1;
+  border: none ;
+  font-size: 1vw;
+  color: white;
+
+}
+button:hover{
+  background-color: white;
+  color: #0047D1;
+  cursor: pointer;
+}
+#card{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  width: 795px;
+  height: 475px;
+  margin-left: 30vw;
+  border-radius: 65px;
+  align-self: center;
+  position: absolute;
+  z-index: 10;
+  color: #e1e1e1;
+  font-family: 'Inconsolata', monospace;
+}
+#card p{
+  margin: 0;
+}
+#ball1{
+  position: absolute;
+  background: linear-gradient(#71A1FF, #0047D1);
+  height: 270px;
+  width: 270px;
+  border-radius: 100%;
+  margin-top: 8vw;
+  margin-left: 24vw;
+  animation: circle 6s linear infinite;
+}
+
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-165px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-165px)
+              rotate(-360deg);
+  }
+}
+
+
+#ball2{
+  position: absolute;
+  background: linear-gradient(#71A1FF, #0047D1);
+  height: 410px;
+  width: 410px;
+  border-radius: 100%;
+  margin-top: 26vw;
+  margin-left: 60%;
+  animation: circle 10s linear infinite;
+}
+#bottomcard{
+  display: flex;
+}
+#bank{
+  margin: 4vw;
+}
+h2{
+  font-size: 2vw;
+}
+
+#left{
+  margin-left: 4vw;
+}
+#right{
+  margin-top: 8vw;
+}
+#number{
+  font-size: 3vw;
+}
