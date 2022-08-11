@@ -1,8 +1,7 @@
 #App{
   background-color: black;
-  width: 100%;
+  width: 100vw;
   height: 100vh; 
-  display: flex;
 }
 button{
   margin: 3vw 0 3vw 85vw ;
